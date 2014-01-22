@@ -6,7 +6,7 @@ ECE281_Lab1
 ### Theoretical Truth Table
 
 | A | B | C | X | Y | Z |
--------------------------
+|---|---|---|---|---|---|
 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 1 | 1 | 1 | 1 |
 | 0 | 1 | 0 | 1 | 1 | 0 |
@@ -19,7 +19,7 @@ ECE281_Lab1
 ### Simulated Truth Table
 
 | A | B | C | X | Y | Z |
--------------------------
+|---|---|---|---|---|---|
 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 1 | 1 | 1 | 1 |
 | 0 | 1 | 0 | 1 | 1 | 0 |
@@ -37,8 +37,6 @@ the A_NOT, B_NOT, and C_NOT signals with a simpl "not a;". I don't know
 what the convention is though. 
 
 ##Schematic
-
-Schematic: 
 ![alt text]( lab_1_schematic.JPG "A pretty little diagram")
 
 ##Simulation Screenshot
