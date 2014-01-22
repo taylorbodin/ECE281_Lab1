@@ -40,8 +40,7 @@ end Lab1_Bodin;
 
 architecture Behavioral of Lab1_Bodin is
 
-signal A_NOT, B_NOT, C_NOT, A_NOT_B_NOT_C, NOT_A_B, NOT_A_C, 
-       B_NOT_C, NOT_B_C, Xout, Yout, Zout : STD_LOGIC;
+signal A_NOT, B_NOT, C_NOT, A_NOT_B_NOT_C, NOT_A_B, NOT_A_C, B_NOT_C, NOT_B_C : STD_LOGIC;
 
 begin
 
@@ -58,9 +57,9 @@ B_NOT_C <= B and C_NOT;
 NOT_B_C <= B_NOT and C;
 
 --Output
-Xout <= A_NOT_B_NOT_C or NOT_A_B or NOT_A_C;
-yout <= B_NOT_C or NOT_B_C;
-Zout <= C;
+X <= A_NOT_B_NOT_C or NOT_A_B or NOT_A_C;
+Y <= B_NOT_C or NOT_B_C;
+Z <= C;
 
 end Behavioral;
 
