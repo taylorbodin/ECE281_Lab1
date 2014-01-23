@@ -41,3 +41,9 @@ what the convention is though.
 
 ##Simulation Screenshot
 ![alt text]( testbench.JPG "testbench results")
+
+##Design Implementation for 3bit
+A programming file was uploaded to the NEXYS 2 device and all cases were tested
+by toggling the switches and comparing the inputs and outputs to the theoretical
+truthtable generated at the begining of the lab. The device generated the 
+correct output in all cases. 
