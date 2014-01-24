@@ -47,3 +47,21 @@ A programming file was uploaded to the NEXYS 2 device and all cases were tested
 by toggling the switches and comparing the inputs and outputs to the theoretical
 truthtable generated at the begining of the lab. The device generated the 
 correct output in all cases. 
+
+##Design Implementation for 8bit
+8bit functionality was added to the project through the use of STD_LOGIC_VECTORS and
+the arithematic library. An input and output bus of 8 bits was defined and configured
+to use the correct toggles and led's in the .ucf. The algorithm for 2's complement
+was implemented in the following line: 
+
+    outputs <= STD_LOGIC_VECTOR(SIGNED(not inputs) + 1 );
+    
+##Documentation 
+Dr. Neebel
+
+Capt. Silva
+
+[Object Mix Forum](http://objectmix.com/vhdl/190708-how-do-perform-std_logic_vector-addition-using-ieee-numeric_std.html)
+
+[Stack Overflow](http://stackoverflow.com/questions/15336875/vhdl-std-logic-vector-indexing-with-downto)
+    
