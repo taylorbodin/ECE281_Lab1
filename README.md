@@ -51,10 +51,15 @@ correct output in all cases.
 ##Design Implementation for 8bit
 8bit functionality was added to the project through the use of STD_LOGIC_VECTORS and
 the arithematic library. An input and output bus of 8 bits was defined and configured
-to use the correct toggles and led's in the .ucf. The algorithm for 2's complement
-was implemented in the following line: 
+to use the correct toggles and led's in the .ucf. The algorithm for 2's complement can be
+summarized as NOTing all the inputs and then adding one. This was implemented in the 
+following line: 
 
     outputs <= STD_LOGIC_VECTOR(SIGNED(not inputs) + 1 );
+    
+##Functionality
+3Bit functionality was successfully demonstrated on 23 January during class. 
+8Bit functionality was successfully demonstrated on 27 January during class. 
     
 ##Documentation 
 Dr. Neebel
