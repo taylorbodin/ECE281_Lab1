@@ -58,7 +58,8 @@ following line:
     outputs <= STD_LOGIC_VECTOR(SIGNED(not inputs) + 1 );
     
 ##Functionality
-3Bit functionality was successfully demonstrated on 23 January during class. 
+3Bit functionality was successfully demonstrated on 23 January during class.
+
 8Bit functionality was successfully demonstrated on 27 January during class. 
     
 ##Documentation 
